@@ -1,1 +1,1 @@
-# c-ile-kararl-yap-ve-d-ng-kullan-m-
+# c-ile-kararli-yapi-ve-dongu-kullanimi-
