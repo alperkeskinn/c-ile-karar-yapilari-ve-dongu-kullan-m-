@@ -1,0 +1,32 @@
+#include <stdio.h> // kütüphane eklenir.
+ 
+int main() // main bloğu çalıştırılır.
+{
+int sayi; // sayi girişi yapılır.
+printf("Sayı Giriniz : "); // kullanıcıdan sayı girişi istenir.
+scanf("%d",&sayi); // girilen sayı çekilir.
+{ int i=0; // i değişkeni girilir ve 0 olarak belirlenir.
+ if (sayi%2 == 0) // eğer sayı ikiye tam bölünüyorsa yani çift ise.
+   
+    {
+      while(i<sayi){ // i sayıya gelene kadar
+        if(i%2 == 0) // i 2 ye ölündüğünde sıfırı veriyorsa
+        {
+            printf("%d \n",i); // i yi ekrana yazdırır
+        }
+        i++; // her seferinde 1 arttırır.
+     }
+    }   
+ else // eğer ikiye tam bölünmüyorsa yani tekse
+      while(i<sayi){ // i sayıya gelene kadar.
+        if(i%2 == 1) // i ikiye bölündüğünde 1 veriyorsa
+        {
+            printf("%d \n",i); // i yi ekrana yazdırır.
+        }
+        i++; // her seferinde 1 arttırılır.
+ 
+      
+   
+}
+}
+}
