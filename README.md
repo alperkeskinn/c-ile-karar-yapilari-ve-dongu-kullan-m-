@@ -1,0 +1,1 @@
+# c-ile-kararl-yap-ve-d-ng-kullan-m-
